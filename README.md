@@ -4,7 +4,7 @@ Use lazygit in vim.
 
 ![lazygit-vim](./assets/preview.png)
 
-## Requrements
+## Requirements
 
 * [lazygit](https://github.com/jesseduffield/lazygit)
 * [tmux](https://github.com/tmux/tmux)
