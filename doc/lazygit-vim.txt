@@ -1,0 +1,49 @@
+*lazygit-vim.txt*   Last change: 2020 May 23
+
+                                  lazygit-vim
+                   vim and lazygit interaction through tmux
+
+==============================================================================
+CONTENTS                                                  *lazygit-vim-contents*
+
+    1. About............................ |lazygit-vim-about|
+    2. Usage ........................... |lazygit-vim-usage|
+
+
+==============================================================================
+ABOUT (1)                                                    *lazygit-vim-about*
+
+lazygit-vim -- use lazygit in vim.
+
+Both tmux [1] and lazygit [2] are great and I use them daily. With the
+exciting new tmux popup feature (available from version 3.2), using lazygit
+in vim was something that immediately popped into my mind, and lazygit-vim
+was born.
+
+[1] https://github.com/tmux/tmux
+[2] https://github.com/jesseduffield/lazygit
+
+
+==============================================================================
+USAGE (2)                                                    *lazygit-vim-usage*
+
+The command |Lazygit| is all there is to this plugin. It will open lazygit in
+the current directory in a tmux popup window.
+>
+    :Lazygit
+<
+Alternatively, you can make your own mapping:
+
+    `nnoremap <C-G> :Lazygit<CR>`
+
+Quit lazygit and popup will close automatically.
+
+------------------------------------------------------------------------------
+                                                                      *Lazygit*
+Lazygit~
+
+Opens lazygit in a tmux popup window.
+
+
+==============================================================================
+vim:tw=78:ts=2:sw=2:expandtab:ft=help:norl:
