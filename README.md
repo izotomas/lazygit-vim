@@ -15,8 +15,9 @@ Notes:
 
 ## Installation
 
-With **[vim-plug](https://github.com/junegunn/vim-plug)**: `Plug 'tomasizo/lazygit-vim'` in your .vimrc
-With **[Vundle](https://github.com/gmarik/Vundle.vim)**: `Plugin tomasizo/lazygit-vim` in your .vimrc
+With **[vim-plug](https://github.com/junegunn/vim-plug)**: `Plug 'izotomas/lazygit-vim'` in your .vimrc
+
+With **[Vundle](https://github.com/gmarik/Vundle.vim)**: `Plugin izotomas/lazygit-vim` in your .vimrc
 
 Add a mapping to your ~/.vimrc (change your key to suit your taste):
 ```bash
